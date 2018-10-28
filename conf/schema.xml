@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+	
+	<!-- name="TESTDB"是在server.xml中配置<property name="schemas">TESTDB</property>-->
+	<schema name="TESTDB" checkSQLschema="false" sqlMaxLimit="100"  > 
+		<!-- 与mysql数据库中的表名对应 subTables="t_order$1-3"是配置分表的 对应mysql t_order1，t_order2，t_order3表的
+		primaryKey="id" 是主键id
+		-->
+		<table name="t_order" primaryKey="id" autoIncrement="true"  subTables="t_order$1-3"  dataNode="dn1" rule="mod-long"  >
+			
+		</table>
+		<table name="t_user" primaryKey="id" autoIncrement="true"  dataNode="dn1" />	
+		
+		
+		 
+	</schema> 
+	<!--配置mysql数据库testdb2  mycat逻辑库名为 dn1-->
+	<dataNode name="dn1" dataHost="localhost1" database="testdb2" /> 
+	<!--配置数据类型 balance="0"读写不分离 -->
+	<dataHost name="localhost1" maxCon="1000" minCon="10" balance="0"  writeType="0" dbType="mysql"  dbDriver="native" switchType="1" slaveThreshold="100"> 
+			<!--心跳包 -->
+			<heartbeat>select root()</heartbeat> 
+			<!--配置mysql数据 账户密码 -->
+			<writeHost host="hostM1" url="localhost:3306" user="root" password="ks888888" /> 
+	</dataHost>
+</mycat:schema>

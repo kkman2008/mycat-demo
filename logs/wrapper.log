@@ -1,0 +1,71 @@
+STATUS | wrapper  | 2017/11/27 17:01:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/11/27 17:01:43 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:01:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:01:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:01:43 | 
+INFO   | jvm 1    | 2017/11/27 17:01:44 | MyCAT Server startup successfully. see logs in logs/mycat.log
+ERROR  | wrapper  | 2017/11/27 17:03:10 | The mycat service is not installed - 指定的服务未安装。 (0x424)
+STATUS | wrapper  | 2017/11/27 17:03:22 | Mycat-server installed.
+STATUS | wrapper  | 2017/11/27 17:03:42 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:03:42 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:03:42 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:03:42 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:03:42 | 
+INFO   | jvm 1    | 2017/11/27 17:03:43 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:03:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:03:49 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:03:49 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:03:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:03:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:03:49 | 
+INFO   | jvm 1    | 2017/11/27 17:03:50 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:12:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:12:38 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:12:38 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:12:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:12:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:12:39 | 
+INFO   | jvm 1    | 2017/11/27 17:12:39 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:29:18 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:29:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:29:23 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:29:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:29:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:29:23 | 
+INFO   | jvm 1    | 2017/11/27 17:29:24 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:29:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:29:29 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:29:29 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:29:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:29:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:29:30 | 
+INFO   | jvm 1    | 2017/11/27 17:29:30 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:29:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:29:49 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:29:49 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:29:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:29:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:29:49 | 
+INFO   | jvm 1    | 2017/11/27 17:29:50 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:31:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 17:31:06 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 17:31:06 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 17:31:06 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 17:31:06 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 17:31:06 | 
+INFO   | jvm 1    | 2017/11/27 17:31:07 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 17:43:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 18:22:56 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 18:22:56 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 18:22:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 18:22:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 18:22:56 | 
+INFO   | jvm 1    | 2017/11/27 18:22:57 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 18:23:43 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/11/27 18:23:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2017/11/27 18:23:43 | Launching a JVM...
+INFO   | jvm 1    | 2017/11/27 18:23:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2017/11/27 18:23:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2017/11/27 18:23:43 | 
+INFO   | jvm 1    | 2017/11/27 18:23:44 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2017/11/27 18:30:07 | <-- Wrapper Stopped
